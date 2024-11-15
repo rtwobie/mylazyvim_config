@@ -16,3 +16,6 @@ vim.keymap.set("n", "<C-l>", function() ui.nav_file(4) end)
 
 -- Undotree
 vim.keymap.set("n", "<leader>tu", vim.cmd.UndotreeToggle, { desc = "toggle undotree" })
+
+-- git
+vim.keymap.set("n", "<leader>gf", vim.cmd.Git, { desc = "fugitive" })
